@@ -1,0 +1,19 @@
+#stateMap {
+  height: 1000px;
+  background-color: white;
+   display: flex;
+   align-items: center;
+   margin: auto;
+
+  ::ng-deep {
+    .info {
+      &.legend {
+        line-height: 18px;
+        color: #555;
+        background-color: #ffffff !important;
+        width: auto;
+        padding: 10px;
+      }
+    }
+  }
+}
